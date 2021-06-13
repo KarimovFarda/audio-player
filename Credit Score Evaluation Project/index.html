@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./PYP-Day-05/css-js/style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+</head>
+<body onload="start()">
+    <a href="#" id="close" style="display:none;text-decoration: none;" onclick="quit()"> &times;</a>
+<div class="languages">
+<a href="#" id="Az" onclick="convertToAzerbaijan()"> AZ/ </a>
+<a href="#" onclick="convertToEnglish()"> EN </a>
+
+</div>
+<form id="search">
+    <label> </label>
+    <input id="myInput" onkeyup="Search()" type="text" placeholder="Search...">
+
+</form>
+    <div id="hovered">
+       <table>
+       <thead>
+           <tr>
+            <th class="heading"> Customer Images</th>
+
+               <th> Name </th>
+               <th> Surname </th>
+               <th> Monthly Salary</th>
+               <th> Active Loans Status </th>
+               <th> Total Monthly Payment</th>
+               <th > Availibility to apply for loan</th>
+               <th> Loan History</th>
+
+           </tr>
+       </thead>
+       <tbody id="tableBody">
+
+       </tbody>
+   </table> 
+  
+   </div>
+   <div id="modal">
+    <table>
+        <caption> Customer's Previous Loans</caption>
+        <thead>
+            <tr>
+                <th> Loaner</th>
+                <th> Amount</th>
+                <th> Is Closed loan</th>
+                <th> Monthly payment </th>
+                <th> Due amount</th>
+                <th> Start Dates</th>
+                <th> End Dates</th>
+            </tr>
+        </thead>
+        <tbody id="modal-body">
+       
+
+        </tbody>
+    </table> 
+</div>
+
+
+<div id="login" class="login-form">
+<form>
+    <h1> LOG IN</h1>
+
+<label> Name </label>
+<span> Example: Leslie, Alicia, Ted, Alberto </span>
+
+<input id="name" type="text" placeholder="Your Name" required>
+<label>Password</label>
+<span> Example:123456789</span>
+<input type="password" placeholder="Your Password" required>
+
+<a href="#"> Forgot the password?</a>
+
+<input type="button" onclick="submitted();session();locale();cookie(1)" value="Sign In"> 
+</form>
+
+
+
+
+
+
+</div>
+
+
+<script src="./PYP-Day-05/css-js/app.js"></script>
+
+</body>
+</html>
