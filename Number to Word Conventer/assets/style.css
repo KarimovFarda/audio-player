@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(216, 213, 213)
+}
+.number-to-word{
+    width: 30%;
+    
+    background-color:white;
+    margin:5rem auto;
+    padding-top:1.5rem;
+
+    border-radius: 2rem;
+
+}
+
+.number-to-word input{
+    width:80%;
+    display: block;
+    margin:2.5rem auto 1rem auto;
+    padding:0.8rem;
+    border-radius: 1rem;
+    border:none;
+    border:1px solid gray;
+    outline: none;
+    font-size:1.3rem;
+}
+.number-to-word h1, .number-to-word h2, .number-to-word h3{
+    text-align: center;
+}
+.number-to-word h1{
+    font-size:3.5rem;
+    font-size: bold;
+    
+}
+.number-to-word h3{
+    text-transform: uppercase;
+    padding:0 1rem 1.5rem 1rem;
+    font-weight: bold;
+}
+.number-to-word h2{
+    color:red;
+}
+.number-to-word div{    margin:0 auto;display:flex;
+justify-content: center;}
+.increase, .decrease{
+    text-decoration: none;
+    color:black;
+    padding:1rem 1.5rem;
+    background-color: rgb(245, 152, 152);
+    border-radius: 0.5rem;
+    text-align: center;
+    margin:0 0.5rem;
+    font-weight: bold;
+}
