@@ -1,46 +1,17 @@
-# Getting Started with Create React App
+## Used APIs : `News Api, Weather Api, Covid Api`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+At first you can register as an user, and after entering your information correctly, a confirmation code will be sent to the e-mail address you specified in the form. After entering the confirmation code correctly, you will be able to automatically log in to your account by mail and password.
+### News Page 
+There are various news and articles on the main page, you can read these articles and news by clicking on each one. If you are not subscriber, you can not read them and page will require to subscribe and direct you to the payment section when you click on the View Subscription Options button. After selecting the subscription period that suits you on the payment page, you can actually pay via Paypal, but in order to read news and articles without payment, you must fill the other form and then you will be redirected to current news or article page. Another feature is the note taking feature which is available at the top right of the page. That is, you can take notes while reading a news or article, just write your note and click the Save Notes button, you can also take notes by voice. To do this, click on Start Recognition to play your recording, and when done, Pause Recognition to pause the recording, and you can save that recording via Save Note button.
+### Weather Page
+You can also click on Current Weather on Navbar to find out the weather information for your current address for that day and the next 3 days at noon and night. Although the weather information is displayed according to your address, you can change the address. To do this, enter the name of the desired city in the Change Location section.
+### Covid Table Page
+The other page in the Navbar section is the Covid Page, where you can see both global and country's Covid information in tabular form. Pagination is available in the table, and you can also specify the number of countries to be displayed on each page and search by countries available on that page.
+### Covid Map
+To see this information visually, you can go to the Covid Map section available in the Navbar section. On that page, you can view the information by selecting any country according to confirmed, deaths and recovered.
+### Admin Panel
+You can also log in to the page as an admin after logging out of an existing user account, all you have to do is type /admin in the url section and enter the information in the admin panel section.
+## `Email: admin@gmail.com`
+## `Password: admin`
+When you log in as an admin, you will see the Add New Article section in the Navbar section of the news page ,so you can add a new news after entering the information as an admin. To delete or change that message, you can click the delete and edit buttons on that news at the bottom.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
